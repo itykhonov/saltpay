@@ -1,51 +1,46 @@
-### Objective
+# Getting Started with Create React App
 
-Your challenge is to integrate with the [REST Countries API](https://restcountries.com/#api-endpoints-v2) to pull country data and display it like in the designs. Use TypeScript and React.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-### Brief
+## Available Scripts
 
-Your task is to build out the project to the designs inside the `/design` folder. 
+In the project directory, you can run:
 
-In this challenge, you will find mobile and desktop designs for both pages.
+### `npm start`
 
-The designs are in JPG static format. This will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`. This should help train your eye to perceive differences in spacings and sizes. Feel free to use any component libraries you may need.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-There are no assets for this challenge, as the country flags will be pulled from the [REST Countries API](https://restcountries.com/#api-endpoints-v2) and you can use an icon font library for the icons.
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-There is a `style-guide.md` file, which contains the information you'll need, such as color palette and fonts.
+### `npm test`
 
-If you make any assumptions, trade-offs or de-prioritise features for timeliness, please document these decisions.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
+### `npm run build`
 
-Your users should be able to:
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
--   See all countries from the API on the homepage
--   Search for a country using an `input` field
--   Filter countries by region
--   Sort countries by population: most -> less 
--   Click on a country to see more detailed information on a separate page
--   Click through to the border countries on the detail page
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### Evaluation Criteria
+### `npm run eject`
 
--   **TypeScript** and **React**  best practices
--   Show us your work through your commit history
--   We're looking for you to produce working code, with enough room to demonstrate how to structure components in a small program
--   Completeness: Did you complete the features?
--   Correctness: Does the functionality act in sensible, thought-out ways?
--   Maintainability: Is it written in a clean, maintainable way?
--   Scability: Is it written in a independent, modular way?
--   Testing: Is the system adequately tested?
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-### Deliverables
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Make sure to include all source code in the repository. 
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-### CodeSubmit
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-Please organize, design, test and document your code as if it were going into production - then push your changes to the master branch. After you have pushed your code, you may submit the assignment on the assignment page.
+## Learn More
 
-All the best and happy coding,
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-The SaltPay Team
+To learn React, check out the [React documentation](https://reactjs.org/).
